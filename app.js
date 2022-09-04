@@ -20,18 +20,6 @@ Article();
 
 
 
-// /////////////// Creating a Schema for our date //////////////////
-
-// const articlesSchema = {
-//     title: String,
-//     content: String
-// }
-
-// //////////////////// Creating a mongoose model for our data /////////////
-// const Article = new mongoose.model("Article", articlesSchema);
-
-
-
 
 /////////////////// Request targetting all articles ///////////////////
 app.route("/articles")
